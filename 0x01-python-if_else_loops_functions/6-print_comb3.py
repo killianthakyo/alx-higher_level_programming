@@ -12,7 +12,7 @@ def determine(num):
 
 first = True
 for i in range(0, 100):
-    #determine(i)
+    # determine(i)
     if determine(i):
         if first:
             print("{:0>2d}".format(i), end="")
