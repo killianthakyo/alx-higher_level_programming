@@ -4,7 +4,7 @@ number = random.randint(-10000, 10000)
 # YOUR CODE HERE
 num_str = repr(number)
 last_digit_str = num_str[-1]
-last_digit = int(last_digit_str)
+last_digit = long(last_digit_str)
 if number < 0 and last_digit != 0:
     last_digit = -abs(last_digit)
 if last_digit > 5:
