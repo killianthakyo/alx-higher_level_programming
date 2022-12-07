@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-def best_score(my_dict):
-    if my_dict:
-        return (max(my_dict))
+def best_score(a_dictionary):
+    if a_dictionary:
+        return (max(a_dictionary))
