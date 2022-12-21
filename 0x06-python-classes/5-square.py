@@ -41,3 +41,5 @@ class Square:
                 y = y + 1
             print("")
             x = x + 1
+        if self.size == 0:
+            print("")
