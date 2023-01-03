@@ -61,7 +61,7 @@ class Rectangle:
             return('')
         x = ''
         for i in range(self.__height):
-            x += str('#' * self.__width) + '\n'
+            x += str(str(self.print_symbol) * self.__width) + '\n'
         x = x[:-1]
         return x
 
