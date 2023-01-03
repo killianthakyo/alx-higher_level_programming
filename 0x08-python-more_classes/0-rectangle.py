@@ -6,5 +6,4 @@ class Rectangle:
     """
     Rectangle function and data
     """
-
     pass
