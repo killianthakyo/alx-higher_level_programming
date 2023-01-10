@@ -24,11 +24,11 @@ class Student:
         if type(attrs) == list:
             for i in attrs:
                 if type(i) != str:
-                        my_dict = self.__dict__
-                        break
+                    my_dict = self.__dict__
+                    break
                 try:
                     my_dict[i] = getattr(self, i)
-                except:
+                except Exception:
                     pass
         else:
             my_dict = self.__dict__
