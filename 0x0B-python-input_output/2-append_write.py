@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+"""
+Append and return count
+"""
+
+
 def append_write(filename="", text=""):
     """
     Append and return number of characters added
