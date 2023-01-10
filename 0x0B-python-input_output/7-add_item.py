@@ -2,7 +2,9 @@
 """
 Add all arguments to a Python list, then save them to a file
 """
-import sys, json
+import json
+import sys
+
 
 filename = "add_item.json"
 myArgs = sys.argv
