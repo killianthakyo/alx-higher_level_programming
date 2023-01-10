@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+Return the dics representation
+"""
 
 
 def class_to_json(obj):
