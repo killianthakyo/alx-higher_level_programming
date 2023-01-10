@@ -12,5 +12,5 @@ def def load_from_json_file(filename):
     Return JSON representation
     """
     with open(filename, mode="r", encoding="utf-8") as f:
-        filetext = f.read()
-    return(json.load(filetext))
+        my_obj = json.load(f)
+    return my_onj
