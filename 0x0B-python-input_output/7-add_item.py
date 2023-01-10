@@ -11,15 +11,15 @@ def add_item(args, filename):
     """
     Save to file
     """
-    my_list = load_from_json_file(filename)
+    try:
+        my_list = load_from_json_file(filename)
+    except Exception:
+        my_list = []
+
+
     for item in args:
         my_list.append(item)
     save_to_json_file(my_list, filename)
-
-
-"""
-Main function
-"""
 
 
 if __name__ == "__main__":
