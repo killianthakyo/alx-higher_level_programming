@@ -6,6 +6,7 @@ Class Base
 
 class Base:
     __nb_objects = 0
+
     def __init__(self, id=None):
         '''
         Assign to id or increment private class attribute
