@@ -12,11 +12,11 @@ class Rectangle (Base):
 
     def __init__(self, width, height, x=0, y=0, id=None):
         '''Rectangle class constructor'''
+        super().__init__(id)
         self.width = width
         self.height = height
         self.x = x
         self.y = y
-        Super().__init__(id)
 
     @property
     def width(self):
@@ -70,6 +70,6 @@ class Rectangle (Base):
         '''set the y coordinate'''
         if type(value) != int:
             raise TypeError("y must be an integer")
-        if value <= 0:
+        if value < 0:
             raise ValueError("y must be >= 0")
         self.__y = value
