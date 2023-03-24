@@ -20,4 +20,5 @@ if __name__ == "__main__":
 
     data = session.add(state_name)
     print('{}'.format(state_name.id))
+    session.commit()
     session.close()
